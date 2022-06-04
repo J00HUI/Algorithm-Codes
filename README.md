@@ -41,6 +41,7 @@
 * MST - Prim (P.Q)
 * Shortest Path(최단경로) - Dijkstra 
    * [adjList](dijkstra_adjList.java) 
+   * [adjMatrix](dijkstra_adjMatrix.java)
    * P.Q 🌟
 * Shortest Path(최단경로) - Floyd-Warshall 🌟
 * Topology Sort
