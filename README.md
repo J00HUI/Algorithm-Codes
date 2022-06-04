@@ -18,6 +18,7 @@
 
 ## Recursive (Backtracking) 🌟
 * [Hanoi](hanoi.java)
+* [NQueenBackTracking](nqueenback.java)
 </br>
 
 ## Searching
