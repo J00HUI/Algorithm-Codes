@@ -17,6 +17,7 @@
 </br>
 
 ## Recursive (Backtracking) 🌟
+* [Hanoi](hanoi.java)
 </br>
 
 ## Searching
