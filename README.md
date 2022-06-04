@@ -64,3 +64,6 @@
 ## Number Theory
 * Prime Number Distinction
     * Sieve of Eratosthenes
+
+## Devide and Conquer
+* [SquareNumberDivideTest](divideTest.java)
