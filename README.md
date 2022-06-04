@@ -10,7 +10,7 @@
   * [Flag](permuation_flag.java)
 * [Combination(조합)](combi.java)
    * [NextPermutation](combiNP.java) 
-* Subset(부분 집합)
+* [Subset(부분 집합)](subSetSum.java)
 </br>
 
 ## Recursive (Backtracking) 🌟
