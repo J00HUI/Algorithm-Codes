@@ -42,7 +42,7 @@
 * Shortest Path(최단경로) - Dijkstra 
    * [adjList](dijkstra_adjList.java) 
    * [adjMatrix](dijkstra_adjMatrix.java)
-   * P.Q 🌟
+   * [P.Q](dijkstra_pq.java) 🌟
 * Shortest Path(최단경로) - Floyd-Warshall 🌟
 * Topology Sort
 </br>
