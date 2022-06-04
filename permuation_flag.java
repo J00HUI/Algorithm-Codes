@@ -1,9 +1,3 @@
-package com.ssafy.number;
-
-
-import java.util.Arrays;
-import java.util.Scanner;
-
 // nPr
 // n개의 수 입력받아 처리
 public class PermutationTest {
