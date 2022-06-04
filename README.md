@@ -21,8 +21,8 @@
 </br>
 
 ## Searching
-* BFS 🌟
-* DFS 🌟
+* [BFS](bfsdfs.java) 🌟
+* [DFS](bfsdfs.java) 🌟
 * Binary Search (parametric) 🌟
 </br>
 
