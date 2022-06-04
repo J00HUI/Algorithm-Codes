@@ -43,7 +43,7 @@
    * [adjList](dijkstra_adjList.java) 
    * [adjMatrix](dijkstra_adjMatrix.java)
    * [P.Q](dijkstra_pq.java) 🌟
-* Shortest Path(최단경로) - Floyd-Warshall 🌟
+* Shortest Path(최단경로) - [Floyd-Warshall](floyd.java) 🌟
 * Topology Sort
 </br>
 
