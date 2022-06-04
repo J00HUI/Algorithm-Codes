@@ -10,8 +10,9 @@
   * [Flag](permuation_flag.java)
 * [Combination(조합)](combi.java)
    * [NextPermutation](combiNP.java) 
-* [Subset(부분 집합)](subSetSum.java)
+* [Subset(부분 집합)](subSet.java)
    * [Bit](subSet_bit.java)
+   * [SubSetSum](subSetSum.java)
    * [SubSetSum-Backtracking](subSetSum_back.java) 
 * [중복 순열, 순열, 중복 조합, 조합](diceTest.java)
 </br>
