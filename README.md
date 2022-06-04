@@ -13,6 +13,7 @@
 * [Subset(부분 집합)](subSetSum.java)
    * [Bit](subSet_bit.java)
    * [SubSetSum-Backtracking](subSetSum_back.java) 
+* [중복 순열, 순열, 중복 조합, 조합](diceTest.java)
 </br>
 
 ## Recursive (Backtracking) 🌟
