@@ -6,7 +6,7 @@
 
 ## Probability Theory
 * Permutation(순열)
-* Combination(조합)
+* [Combination(조합)](combi.java)
    * [NextPermutation](combiNP.java) 
 * Subset(부분 집합)
 </br>
