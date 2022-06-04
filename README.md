@@ -57,7 +57,7 @@
 </br>
 
 ## String
-* KMP
+* [KMP](kmp.java)
 * Rabin-Karp
 * Trie ⭐
 </br>
