@@ -5,9 +5,10 @@
 </br>
 
 ## Probability Theory
-* 순열 (Permutation)
-* 조합 (Combination)
-* 부분집합 (Subset)
+* Permutation(순열)
+* Combination(조합)
+   * NextPermutation 
+* Subset(부분 집합)
 </br>
 
 ## Recursive (Backtracking) 🌟
