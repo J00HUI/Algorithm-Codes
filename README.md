@@ -58,7 +58,8 @@
 * 0-1 Knapsack Problem
 * LIS(Longest Increasing Subsequence)
 * LCS(Longest Common Subsequence)
-* [Fibonacci](fibonacci.java)
+* [Fibonacci-Top-Bottom](fibonacci.java)
+* [Fibonacci-Bottom-Up](fibonacci2.java)
 </br>
 
 ## String
