@@ -55,7 +55,7 @@
 </br>
 
 ## DP ⭐
-* 0-1 Knapsack Problem
+* [0-1 Knapsack Problem](zerooneknapsack.java)
 * [LIS(Longest Increasing Subsequence)](lis.java)
 * LCS(Longest Common Subsequence)
 * [Fibonacci-Top-Bottom](fibonacci.java)
