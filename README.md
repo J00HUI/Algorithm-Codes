@@ -36,7 +36,7 @@
 </br>
 
 ## Graph
-* MST - Kruskal(union-find) 🌟
+* MST - [Kruskal(union-find)](kruskal.java) 🌟
 * MST - Prim
 * MST - Prim (P.Q)
 * Shortest Path(최단경로) - Dijkstra 
