@@ -11,6 +11,7 @@
 * [Combination(조합)](combi.java)
    * [NextPermutation](combiNP.java) 
 * [Subset(부분 집합)](subSetSum.java)
+   * [Bit](subSet_bit.java)
    * [SubSetSum-Backtracking](subSetSum_back.java) 
 </br>
 
