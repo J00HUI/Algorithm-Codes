@@ -25,8 +25,8 @@
 ## Searching
 * BFS 🌟
 * DFS 🌟
-* [Binary Search](binarysearch.java) 🌟
-* Parametric Search 🌟
+* [이분 탐색(Binary Search)](binarysearch.java) 🌟
+* 매개변수 탐색(Parametric Search) 🌟
 </br>
 
 ## Data Structure
