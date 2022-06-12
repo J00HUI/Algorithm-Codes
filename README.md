@@ -26,6 +26,7 @@
 * BFS 🌟
 * DFS 🌟
 * Binary Search (parametric) 🌟
+* Parametric Search 
 </br>
 
 ## Data Structure
