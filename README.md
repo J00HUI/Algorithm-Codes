@@ -31,7 +31,7 @@
 
 ## Data Structure
 * Heap(P.Q) 🌟
-* Segment Tree ⭐
+* [Segment Tree](segmentTree.java) ⭐
 * [Stack(Node)](stack.java)
 * [Queue(Node)](queue.java)
 </br>
