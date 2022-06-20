@@ -3,8 +3,8 @@
 * JAVA8 하면 뺴놓을 수 없는게 람다식인데 대부분 람다식을 전달 인자로 받음
 
 ## Contents
-1. [forEach()](#forEach)
-2. [compute()](#2.compute())
+1. forEach()
+2. compute()
 3. computeIfAbsent()
 4. computeIfPresent()
 5. getOrDefault()
@@ -30,6 +30,7 @@ map.forEach((k, v) -> System.out.println(k + " : " + v));
  * nojam : Codingnojam 
  */
 ```
+</br>
 
 ## 2.compute()
 compute() 메서드는 람다식을 통해서 기존의 값에 어떻게 연산을 할지 지정할 수 있습니다.   
@@ -51,6 +52,7 @@ System.out.println(map.get("coding"));
 위의 예제에서는 삼항 연산자를 이용하였으며 간단하게 설명하면 "coding"이라는 키에 매핑된 value값이 oldValue일 때 oldValue가 null이면 0을 반환하고, 아니라면 oldValue의 값에 +1을 하게 됩니다.   
 Map을 처음 생성할 때는 아무런 값도 없으므로 "coding"이라는 키의 값이 null일 테니 0을 반환합니다.   
 그다음에 동일한 람다식을 전달하면 "coding"이라는 키의 값이 0으로 존재하므로 람다식에서의 연산을 통해 0+1이 되고 1을 리턴해줍니다.   
+</br>
 
 ## 3. computeIfAbsent()
 이번에 소개할 메서드는 computeIfAbsent()입니다.   
@@ -73,6 +75,7 @@ computeIfAbsent()에 첫 번째 전달 인자는 key이고, 두 번째 전달 �
 기본적으로 리턴 값은 key의 값이 존재하면 해당 key의 값을 반환해주고, 해당 key의 값이 없으면 람다식을 수행하고 나온 결과 값을 반환해줍니다.   
 그래서 실제로 위의 로직을 실행해보면 처음에는 "nojam"이라는 key의 값이 없으므로 람다식이 실행되고 Codingnojam이라는 문자열이 결괏값으로 반환되었지만, 두 번째 실행에서는 "nojam"이라는 key의 값이 존재하므로 Hi가 붙은 문자열이 반환되는 게 아니라 해당 key의 값인 Condingnojam이 반환된 걸 알 수 있습니다.   
 실제로 이 메서드는 trie자료구조를 만들 때 제가 주로 쓰는데 아주 유용합니다.    
+</br>
 
 ## 4. computeIfPresent()
 computIfPresent()는 위에서 살펴본 computIfAbsent()와 반대로 동작한다고 이해하시면 될 것 같습니다.   
@@ -93,6 +96,7 @@ System.out.println(str_null); 	// null 출력
 첫 번째 인자에는 키를 넘기고, 두 번째 인자에는 실행할 람다식을 전달하면 됩니다.   
 얼핏 보면 compute()와 비슷해 보이기도 하는데 compute()는 값이 존재하지 않을 경우도 고려해서 람다식을 작성해야 하고, computeIfPresent()는 키에 매핑된 value값이 존재할 때만 수행됩니다.   
 추가적으로 comput()는 키에 매핑된 value가 없으면 람다식에서 얻은 값으로 매핑을 해주지만, computeIfPresent()는 키에 매핑된 value값이 없으면 null을 리턴합니다.   
+</br>
 
 ## 5. getOrDefault()
 getOrDefault() 메서드는 명칭 그대로 key에 매핑된 value값이 존재하면 가져오고, 존재하지 않으면 default값을 가져옵니다.   
@@ -110,6 +114,7 @@ str = map.getOrDefault("Map", "Interface");
 System.out.println(str); //Interface 출력
 ```
 첫 번째 인자에 key를 주고, 두 번째 인자에 default로 사용할 값을 주면 됩니다.
+</br>
 
 ## 6. putIfAbsent()
 마지막으로 살펴볼 메서드는 putIfAbsent()입니다.   
@@ -134,5 +139,7 @@ System.out.println(str);  //good good 출력
 사용하실 때 유의하실 점은 리턴 값이 put을 했는지 안 했는지에 대한 boolean값이라고 생각하시면 안 됩니다.   
 실제 리턴 값은 해당 key에 현재 매핑된 value값을 리턴해줍니다.    
 만약 key에 매핑된 value값이 존재하면 그대로 값을 리턴해주고, 존재하지 않으면 null을 리턴합니다.   
+</br>
 
+---
 출처: https://codingnojam.tistory.com/39 [알면 know jam! 모르면 no jam!:티스토리]
