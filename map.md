@@ -4,7 +4,7 @@
 
 ## Contents
 1. [forEach()](#forEach)
-2. [compute()](#2.-compute())
+2. [compute()](#2.compute())
 3. computeIfAbsent()
 4. computeIfPresent()
 5. getOrDefault()
@@ -31,7 +31,7 @@ map.forEach((k, v) -> System.out.println(k + " : " + v));
  */
 ```
 
-## 2. compute()
+## 2.compute()
 compute() 메서드는 람다식을 통해서 기존의 값에 어떻게 연산을 할지 지정할 수 있습니다.   
 사용방법은 다음과 같습니다.
 ```
