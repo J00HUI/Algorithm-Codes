@@ -4,7 +4,7 @@
 
 ## Contents
 1. [forEach()](#forEach)
-2. [compute()](#compute())
+2. [compute()](#compute)
 3. computeIfAbsent()
 4. computeIfPresent()
 5. getOrDefault()
