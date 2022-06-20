@@ -34,7 +34,7 @@
 * [Segment Tree](segmentTree.java) ⭐
 * [Stack(Node)](stack.java)
 * [Queue(Node)](queue.java)
-* Map
+* [Map](map.md)
 </br>
 
 ## Graph
@@ -71,7 +71,7 @@
 ## String
 * [KMP](kmp.java)
 * Rabin-Karp
-* Trie ⭐
+* [Trie](trie.md) ⭐
 </br>
 
 ## Number Theory
