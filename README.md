@@ -34,6 +34,7 @@
 * [Segment Tree](segmentTree.java) ⭐
 * [Stack(Node)](stack.java)
 * [Queue(Node)](queue.java)
+* Map
 </br>
 
 ## Graph
