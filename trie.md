@@ -24,8 +24,6 @@ coding을 검색한다면 c자식노드 -> o자식노드 -> d자식노드 -> i�
 
 ## 코드
 ```
-package ssafy;
-
 import java.io.*;
 import java.util.*;
 
@@ -82,6 +80,36 @@ public class Prac2{
 			return root.endOfWord;
 			
 		}
+		
+		// Trie 에서 문자열 삭제
+		void delete(String str) {
+			delete(this.rootNode, str, 0);
+		}
+		private void delete(Node root, String str, int idx) {
+			char c = str.charAt(idx);
+			
+			if(!root.childNode.containsKey(c))
+				throw new Error("not exits");
+			
+			Node child = root.childNode.get(c);
+			idx++;
+			if(idx == str.length()) {
+				if(!child.endOfWord)
+					throw new Error("not exist");
+				
+				// 문자열 삭제를 위한 마지막 글자 여부 false
+				child.endOfWord = false;
+				// 마지막 문자인데 자식노드가 없으면 노드 삭제
+				if(child.childNode.isEmpty())
+					root.childNode.remove(c);
+			} else {
+				delete(child, str, idx); 	// 정상적인 삭제를 위해 선 호출
+				
+				// 정상적으로 호출이 진행되어 자식 노드가 없고, 해당 노드로 이어지는 문자가 없으면 삭제
+				if(!child.endOfWord && child.childNode.isEmpty())
+					root.childNode.remove(c);
+			}
+		}
 	}
 	
 	
@@ -99,8 +127,14 @@ public class Prac2{
 		System.out.println(trie.search("busy"));	// true
 		System.out.println(trie.search("kakao"));	// true
 		System.out.println(trie.search("cap"));		// true
+		
+		System.out.println("삭제 후");
+		trie.delete("cap");
+		System.out.println(trie.search("cap"));		// false
 	}
 }
+
+
 ```
 * [Map.computeIfAbsent(), Map.getOrDefault() 의 설명 링크](map.md)
 
