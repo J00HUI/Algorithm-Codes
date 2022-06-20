@@ -93,7 +93,7 @@ public class Main{
 			
 			Node child = root.childNode.get(c);
 			idx++;
-			if(idx == str.length()) {
+			if(idx == str.length()) {	// 마지막 문자
 				if(!child.endOfWord)
 					throw new Error("not exist");
 				
