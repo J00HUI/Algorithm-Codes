@@ -49,7 +49,7 @@
 </br>
 
 ## Miscellaenous
-* Sliding Window 🌟
+* [Sliding Window](slidingWindow.md) 🌟
 * Two Point 🌟
 * Hash 🌟
 * flood fill🌟
