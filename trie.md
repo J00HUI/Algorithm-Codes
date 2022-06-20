@@ -69,6 +69,7 @@ public class Prac2{
 				// 문자가 있으면 키에 해당하는 값을 가져오고 아니면 null
 				// getOrDefault() 의 설명은 코드 하단의 링크 참고
 				root = root.childNode.getOrDefault(str.charAt(i), null);
+				//root = root.childNode.get(str.charAt(i)); 위 코드와 동일한 코드
 				if(root == null) {
 					// root 가 null 이면 현재 Trie 에 해당하는 문자열은 없음
 					return false;
