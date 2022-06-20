@@ -28,7 +28,7 @@ import java.io.*;
 import java.util.*;
 
 
-public class Prac2{
+public class Main{
 	static class Node {
 		Map<Character, Node> childNode = new HashMap<Character, Node>();
 		
