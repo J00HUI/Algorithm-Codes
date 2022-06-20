@@ -50,7 +50,7 @@
 
 ## Miscellaenous
 * [Sliding Window](slidingWindow.md) 🌟
-* Two Point 🌟
+* [Two Pointer](twoPointer.md) 🌟
 * Hash 🌟
 * flood fill🌟
 </br>
