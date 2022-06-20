@@ -52,7 +52,7 @@
 * [Sliding Window](slidingWindow.md) 🌟
 * [Two Pointer](twoPointer.md) 🌟
 * Hash 🌟
-* flood fill🌟
+* flood fill(seed fill)🌟
 </br>
 
 ## Greedy 🌟
