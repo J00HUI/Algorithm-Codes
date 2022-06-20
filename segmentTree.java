@@ -5,7 +5,12 @@ public class Main{
 	static int NUMBER = 12;
 	static int[] a = {1, 9, 3, 8, 4, 5, 5, 9, 10, 3, 4, 5};
 	static int[] tree = new int[4*NUMBER];
-	
+	/*
+	 * N*4 이외에 구체적인 세그먼트트리의 크기를 구하는 방법
+   	 * h(트리의높이)=(int) Math.ceil(Math.log(N)/Math.log(2));
+   	 * size(세그먼트트리의 크기)=(int) Math.pow(2, h+1);
+   	 * tree=new int[size];
+	 */
 	static int init(int start, int end, int node) {
 		if(start==end) return tree[node] = a[start];
 		int mid = (start+end) / 2;
