@@ -101,7 +101,7 @@ public class Prac2{
 	}
 }
 ```
-* [Map.computeIfAbsent(), Map.getOrDefault() 의 설명 링크](../map.md)
+* [Map.computeIfAbsent(), Map.getOrDefault() 의 설명 링크](map.md)
 
 
 
