@@ -3,7 +3,7 @@
 * JAVA8 하면 뺴놓을 수 없는게 람다식인데 대부분 람다식을 전달 인자로 받음
 
 ## Contents
-1. [forEach()](#forEach())
+1. [forEach()](#forEach)
 2. compute()
 3. computeIfAbsent()
 4. computeIfPresent()
