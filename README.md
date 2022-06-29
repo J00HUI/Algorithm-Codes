@@ -75,8 +75,7 @@
 </br>
 
 ## Number Theory
-* Prime Number Distinction
-    * Sieve of Eratosthenes
+* [Sieve of Eratosthenes](Eratosthenes.java)
 </br>
 
 ## Devide and Conquer
