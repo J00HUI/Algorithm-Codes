@@ -19,7 +19,7 @@ public class DP2_KnapSackTest {
 		
 		for(int item=1; item<=N; item++) {
 			itemWeight = weights[item];		// 현 아이템의 무게
-			itemBenefit = profits[item];	// 현 아이템의 가치
+			itemBenefit = profits[item];		// 현 아이템의 가치
 		
 		
 			// 현 아이템의 1부터 목표 무게 까지의 가치테이블을 만든다.
