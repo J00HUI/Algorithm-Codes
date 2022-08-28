@@ -50,33 +50,33 @@
 </br>
 
 ## Miscellaenous
-* [Sliding Window](slidingWindow.md) 🌟
-* [Two Pointer](twoPointer.md) 🌟
+* [Sliding Window](Codes/slidingWindow.md) 🌟
+* [Two Pointer](Codes/twoPointer.md) 🌟
 * Hash 🌟
-* [Flood fill(seed fill)](floodFill.md)🌟
+* [Flood fill(seed fill)](Codes/floodFill.md)🌟
 </br>
 
 ## Greedy 🌟
 </br>
 
 ## DP ⭐
-* [0-1 Knapsack Problem](zerooneknapsack.java)
-* [LIS(Longest Increasing Subsequence)](lis.java)
+* [0-1 Knapsack Problem](Codes/zerooneknapsack.java)
+* [LIS(Longest Increasing Subsequence)](Codes/lis.java)
 * LCS(Longest Common Subsequence)
-* [Fibonacci-Top-Bottom](fibonacci.java)
-* [Fibonacci-Bottom-Up](fibonacci2.java)
-* [MinCoinChange](minCoinChange.java)
+* [Fibonacci-Top-Bottom](Codes/fibonacci.java)
+* [Fibonacci-Bottom-Up](Codes/fibonacci2.java)
+* [MinCoinChange](Codes/minCoinChange.java)
 </br>
 
 ## String
-* [KMP](kmp.java)
+* [KMP](Codes/kmp.java)
 * Rabin-Karp
-* [Trie](trie.md) ⭐
+* [Trie](Codes/trie.md) ⭐
 </br>
 
 ## Number Theory
-* [Sieve of Eratosthenes](Eratosthenes.java)
+* [Sieve of Eratosthenes(에라토스테네스의 체(소수판별)](Codes/Eratosthenes.java)
 </br>
 
 ## Devide and Conquer
-* [SquareNumberDivideTest](divideTest.java)
+* [SquareNumberDivideTest](Codes/divideTest.java)
