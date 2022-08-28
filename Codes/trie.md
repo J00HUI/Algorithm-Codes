@@ -4,7 +4,7 @@
 Trie 는 일반적인 Tree 자료구조와 같은 모양이지만 저장하는 값이 다른 형태입니다.   
 정수형을 저장하는 Tree 가 아래와 같은 모양으로 있다고 가정하겠습니다.   
 
-![image](https://user-images.githubusercontent.com/83942393/174538577-e5ad5b57-badf-4b06-b225-46b1a83e7ad6.png)
+<img src="https://user-images.githubusercontent.com/83942393/174538577-e5ad5b57-badf-4b06-b225-46b1a83e7ad6.png" width="40%" height="40%">
 
 위와 같은 정수형 자료의 이진트리에서 검색을 수행할 때 O(logN) 의 시간 복잡도를 가지게 됩니다.   
 그러나 같은 이진트리 형태여도 문자열을 저장하고 있다면 문자열의 길이가 M 일 때, O(M\*logN)의 시간 복잡도를 가지게 됩니다. (문자 한개를 탐색하는 시간 복잡도 : O(logN), M 개의 문자를 탐색 -> O(M\*logN)  
