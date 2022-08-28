@@ -47,7 +47,7 @@ public class Main{
 			Node root = this.rootNode;
 			
 			// 문자열의 각 문자가 root 자식노드들 중에 있는지 체크
-			// 없다면 자식노드 생성 후 그 값 리턴
+			// 없다면 문자가 키가 되는 자식노드 생성 후 그 값 리턴
 			// 있다면 key 의 value 값을 리턴
 			// computeIfAbsent() 의 설명은 코드 하단의 링크 참고
 			for(int i=0; i<str.length(); i++) {
