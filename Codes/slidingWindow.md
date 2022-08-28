@@ -1,5 +1,5 @@
 ## Sliding window
-![image](https://user-images.githubusercontent.com/83942393/174523304-253e762e-ca8a-4654-88d1-39009b9f5656.png)
+<img src="https://user-images.githubusercontent.com/83942393/174523304-253e762e-ca8a-4654-88d1-39009b9f5656.png" width="80%" height="80%">
 
 예를 들어 ABCDEF 가 있고 K가 3이라면,
 
