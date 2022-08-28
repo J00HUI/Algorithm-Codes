@@ -5,7 +5,7 @@
 ## Contents
 1. forEach()
 2. compute()
-3. [computeIfAbsent()](#computeIfAbsent)
+3. [computeIfAbsent()](#3.computeIfAbsent)
 4. computeIfPresent()
 5. getOrDefault()
 6. putIfAbsent()
@@ -54,7 +54,7 @@ Map을 처음 생성할 때는 아무런 값도 없으므로 "coding"이라는 �
 그다음에 동일한 람다식을 전달하면 "coding"이라는 키의 값이 0으로 존재하므로 람다식에서의 연산을 통해 0+1이 되고 1을 리턴해줍니다.   
 </br>
 
-## 3. computeIfAbsent()
+## 3.computeIfAbsent()
 이번에 소개할 메서드는 computeIfAbsent()입니다.   
 메서드 이름에서부터 어떻게 동작할지 느낌이 오는데, 말 그대로 없으면 compute()를 해준다는 의미입니다.   
 사용방법은 아래와 같습니다.   
