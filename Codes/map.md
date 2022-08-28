@@ -5,7 +5,7 @@
 ## Contents
 1. forEach()
 2. compute()
-3. [computeIfAbsent()](#computeIfAbsent())
+3. [computeIfAbsent()](#computeIfAbsent)
 4. computeIfPresent()
 5. getOrDefault()
 6. putIfAbsent()
