@@ -1,6 +1,6 @@
 public class Node {
 	public String data;	// data 필드
-	public Node link; //link 필드
+	public Node link; 	//link 필드
 	
 	
 	public Node(String data, Node link) {
