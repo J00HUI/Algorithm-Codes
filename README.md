@@ -44,7 +44,7 @@
 * Shortest Path(최단경로) - Dijkstra 
    * [adjList](Codes/dijkstra_adjList.java) 
    * [adjMatrix](Codes/dijkstra_adjMatrix.java)
-   * [P.Q](Codes/dijkstra_pq.java) 🌟
+   * [adjMatrix-P.Q](Codes/dijkstra_pq.java) 🌟
 * Shortest Path(최단경로) - [Floyd-Warshall](Codes/floyd.java) 🌟
 * Topology Sort
 </br>
