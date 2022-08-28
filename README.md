@@ -6,46 +6,46 @@
 
 ## Probability Theory
 * Permutation(순열)
-  * [NextPermuation](permuNP.java) 
-  * [Flag](permuation_flag.java)
-* [Combination(조합)](combi.java)
-   * [NextPermutation](combiNP.java) 
-* [Subset(부분 집합)](subSet.java)
-   * [Bit](subSet_bit.java)
-   * [SubSetSum](subSetSum.java)
-   * [SubSetSum-Backtracking](subSetSum_back.java) 
-* [중복 순열, 순열, 중복 조합, 조합](diceTest.java)
+  * [NextPermuation](Codes/permuNP.java) 
+  * [Flag](Codes/permuation_flag.java)
+* [Combination(조합)](Codes/combi.java)
+   * [NextPermutation](Codes/combiNP.java) 
+* [Subset(부분 집합)](Codes/subSet.java)
+   * [Bit](Codes/subSet_bit.java)
+   * [SubSetSum](Codes/subSetSum.java)
+   * [SubSetSum-Backtracking](Codes/subSetSum_back.java) 
+* [중복 순열, 순열, 중복 조합, 조합](Codes/diceTest.java)
 </br>
 
 ## Recursive (Backtracking) 🌟
-* [Hanoi](hanoi.java)
-* [NQueenBackTracking](nqueenback.java)
+* [Hanoi](Codes/hanoi.java)
+* [NQueenBackTracking](Codes/nqueenback.java)
 </br>
 
 ## Searching
 * BFS 🌟
 * DFS 🌟
-* [이분 탐색(Binary Search)](binarysearch.java) 🌟
-* [매개변수 탐색(Parametric Search)](parametricSearch.md) 🌟
+* [Binary Search(이분 탐색)](Codes/binarysearch.java) 🌟
+* [Parametric Search(매개변수 탐색)](Codes/parametricSearch.md) 🌟
 </br>
 
 ## Data Structure
 * Heap(P.Q) 🌟
-* [Segment Tree](segmentTree.java) ⭐
-* [Stack(Node)](stack.java)
-* [Queue(Node)](queue.java)
-* [Map](map.md)
+* [Segment Tree](Codes/segmentTree.java) ⭐
+* [Stack(Node)](Codes/stack.java)
+* [Queue(Node)](Codes/queue.java)
+* [Map](Codes/map.md)
 </br>
 
 ## Graph
-* MST - [Kruskal(union-find)](kruskal.java) 🌟
-* MST - [Prim](prim.java)
-* MST - [Prim (P.Q)](prim_pq.java)
+* MST - [Kruskal(union-find)](Codes/kruskal.java) 🌟
+* MST - [Prim](Codes/prim.java)
+* MST - [Prim (P.Q)](Codes/prim_pq.java)
 * Shortest Path(최단경로) - Dijkstra 
-   * [adjList](dijkstra_adjList.java) 
-   * [adjMatrix](dijkstra_adjMatrix.java)
-   * [P.Q](dijkstra_pq.java) 🌟
-* Shortest Path(최단경로) - [Floyd-Warshall](floyd.java) 🌟
+   * [adjList](Codes/dijkstra_adjList.java) 
+   * [adjMatrix](Codes/dijkstra_adjMatrix.java)
+   * [P.Q](Codes/dijkstra_pq.java) 🌟
+* Shortest Path(최단경로) - [Floyd-Warshall](Codes/floyd.java) 🌟
 * Topology Sort
 </br>
 
