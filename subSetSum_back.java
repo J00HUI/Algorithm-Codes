@@ -4,7 +4,7 @@ public class SubSetSumTest2 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		N = sc.nextInt();	// 집합의 크기
+		N = sc.nextInt();	 // 집합의 크기
 		S = sc.nextInt(); 	 // 목표합
 		ans = 0;
 		
@@ -32,7 +32,7 @@ public class SubSetSumTest2 {
 		}
 		if(sum > S) return;		// 가지치기
 		
-		if(cnt==N) { // 마지막 원소까지 부분집합에 고려된 상황 (기저조건)
+		if(cnt==N) { 			// 마지막 원소까지 부분집합에 고려된 상황 (기저조건)
 			return;
 		}
 		
