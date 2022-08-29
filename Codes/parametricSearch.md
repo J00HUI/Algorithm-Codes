@@ -23,21 +23,20 @@ public class Main_bj_2343_기타레슨 {
 	
 	// parametric search 
 	static boolean isOK(int value, int N , int M, int[] arr) {
-		int sum = 0;				// 1개에 담기는 영상의 총 길이
+		int sum = 0;					// 1개에 담기는 영상의 총 길이
 		int m = 1;					// 사용한 블루레이의 갯수
 		for(int i=0; i<N; i++) {
 			if(arr[i] > value) return false;	// 현재 길이에 영상을 넣을 수 없음
 			sum += arr[i];
-			if(sum > value) {					// 블루레이 길이 초과
-				sum = arr[i];					// 새거에 현재 영상 담음
-				m++;							// 블루에이 갯수 증가
+			if(sum > value) {			// 블루레이 길이 초과
+				sum = arr[i];			// 새거에 현재 영상 담음
+				m++;				// 블루에이 갯수 증가
 			}
 		}
 		
-		if(m>M) return false;					// 사용한 블루레이 갯수가 더 많다면 길이를 증가시켜야 함
+		if(m>M) return false;				// 사용한 블루레이 갯수가 더 많다면 길이를 증가시켜야 함
 		return true;						
 	}
-	//
 	
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/input_bj_2343.txt"));
@@ -45,7 +44,7 @@ public class Main_bj_2343_기타레슨 {
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		int N = Integer.parseInt(st.nextToken());		// N 개의 영상들
 		int M = Integer.parseInt(st.nextToken());		// M 개의 블루레이에 연속으로 담아야 함
-		int[] arr = new int[N];							// 영상들
+		int[] arr = new int[N];					// 영상들
 		
 		st = new StringTokenizer(br.readLine(), " ");
 		for(int i=0; i<N; i++) {
@@ -60,10 +59,10 @@ public class Main_bj_2343_기타레슨 {
 			
 			boolean result = isOK(mid, N, M, arr);
 			
-			if(result) {								// 현재 블루레이 길이에 M개를 사용해 영상을 전부 담을 수 있다면
-				last = mid-1;							// 제일 적은 길이를 찾기 위해 -1
-			}else {										// 없다면
-				start = mid+1;							// 길이 증가
+			if(result) {							// 현재 블루레이 길이에 M개를 사용해 영상을 전부 담을 수 있다면
+				last = mid-1;						// 제일 적은 길이를 찾기 위해 -1
+			}else {								// 없다면
+				start = mid+1;						// 길이 증가
 			}
 		}
 		
