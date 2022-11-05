@@ -13,9 +13,6 @@ public class DijkstraTest2_PQ {
 		public int compareTo(Vertex o) {
 			return this.minDistance - o.minDistance;
 		}
-		
-		
-		
 	}
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
@@ -60,5 +57,4 @@ public class DijkstraTest2_PQ {
 		System.out.println(Arrays.toString(distance));
 		in.close();
 	}
-
 }
