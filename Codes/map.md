@@ -9,6 +9,7 @@
 4. computeIfPresent()
 5. getOrDefault()
 6. putIfAbsent()
+7. iterator
 </br>
 
 ## 1. forEach()
@@ -141,5 +142,46 @@ System.out.println(str);  //good good 출력
 만약 key에 매핑된 value값이 존재하면 그대로 값을 리턴해주고, 존재하지 않으면 null을 리턴합니다.   
 </br>
 
+## 7. iterator
+```Java
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+ 
+public class MapIterationSample {
+    public static void main(String[] agrs) {
+        Map<String, String> map = new HashMap<String, String>();
+         
+        map.put("키1", "값1");
+        map.put("키2", "값2");
+        map.put("키3", "값3");
+        map.put("키4", "값4");
+        map.put("키5", "값5");
+        map.put("키6", "값6");
+         
+         
+        // 방법1
+        Iterator<String> keys = map.keySet().iterator();
+        while( keys.hasNext() ){
+            String key = keys.next();
+            System.out.println( String.format("키 : %s, 값 : %s", key, map.get(key)) );
+        }
+         
+        // 방법2
+        for( Map.Entry<String, String> elem : map.entrySet() ){
+            System.out.println( String.format("키 : %s, 값 : %s", elem.getKey(), elem.getValue()) );
+        }
+         
+        // 방법3
+        for( String key : map.keySet() ){
+            System.out.println( String.format("키 : %s, 값 : %s", key, map.get(key)) );
+        }
+    }
+}
+```
+</br>
+
 ---
-출처: https://codingnojam.tistory.com/39 [알면 know jam! 모르면 no jam!:티스토리]
+### Reference
+* https://codingnojam.tistory.com/39 [알면 know jam! 모르면 no jam!:티스토리]
+* https://stove99.tistory.com/96 (iterator)
