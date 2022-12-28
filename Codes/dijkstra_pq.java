@@ -11,7 +11,7 @@ public class DijkstraTest2_PQ {
 
 		@Override
 		public int compareTo(Vertex o) {
-			return this.minDistance - o.minDistance;
+			return this.minDistance - o.minDistance;		// 크기가 작은 게 우선
 		}
 	}
 	
