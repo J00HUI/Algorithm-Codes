@@ -1,6 +1,24 @@
-# 🔑 Algorithm-Codes
+# 🗝️🗂️✅ Algorithm-Codes
 알고리즘 기초 코드 저장소입니다.
 </br>
+</br>
+</br>
+
+## Sorting
+* Insertion Sort(삽입 정렬) - stable, O(n^2)
+* Bubble Sort(거품 정렬) - stable, O(n^2)
+* Quick Sort(퀵 정렬) - unstable
+  * Java Sort Library
+    * Arrays.sort
+    * Collections.sort
+* Merge Sort(병합 정렬) - unstable, O(nlogn)
+* Heap Sort (힙 정렬) - O(nlogn)
+* Topological Sort
+* Selection Sort - unstable
+* Counting Sort
+</br>
+
+※ 값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort)이라고 합니다.
 </br>
 </br>
 
