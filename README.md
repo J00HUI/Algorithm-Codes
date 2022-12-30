@@ -11,7 +11,7 @@
   * Java Sort Library
     * Arrays.sort
     * Collections.sort
-* Merge Sort(병합 정렬) - unstable, O(nlogn)
+* [Merge Sort(병합 정렬)](/Codes/mergeSort.md) - unstable, O(nlogn)
 * Heap Sort (힙 정렬) - O(nlogn)
 * Topological Sort
 * Selection Sort - unstable
