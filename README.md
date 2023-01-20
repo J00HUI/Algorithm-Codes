@@ -24,10 +24,11 @@
 
 ## Probability Theory
 * Permutation(순열)
-  * [Array](perm.java)
+  * [Array](Codes/perm.java)
   * [Flag](Codes/permuation_flag.java)
   * [NextPermuation](Codes/permuNP.java) 
-* [Combination(조합)](Codes/combi.java)
+* Combination(조합)
+   * [Array](Codes/combi.java)  
    * [NextPermutation](Codes/combiNP.java) 
 * [Subset(부분 집합)](Codes/subSet.java)
    * [Bit](Codes/subSet_bit.java)
