@@ -97,6 +97,7 @@
 
 ## Devide and Conquer
 * [SquareNumberDivideTest](Codes/divideTest.java)
+</br>
 
 ## Miscellaenous
 * [Sliding Window](Codes/slidingWindow.md) 🌟
