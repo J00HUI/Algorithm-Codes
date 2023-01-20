@@ -72,13 +72,6 @@
 * Topology Sort
 </br>
 
-## Miscellaenous
-* [Sliding Window](Codes/slidingWindow.md) 🌟
-* [Two Pointer](Codes/twoPointer.md) 🌟
-* Hash 🌟
-* [Flood fill(seed fill)](Codes/floodFill.md)🌟
-</br>
-
 ## Greedy 🌟
 </br>
 
@@ -99,7 +92,15 @@
 
 ## Number Theory
 * [Sieve of Eratosthenes(에라토스테네스의 체(소수판별))](Codes/Eratosthenes.java)
+* [Euclidean algorithm(유클리드 호제법(최대 공약수))](Codes/Euclidean.java)
 </br>
 
 ## Devide and Conquer
 * [SquareNumberDivideTest](Codes/divideTest.java)
+
+## Miscellaenous
+* [Sliding Window](Codes/slidingWindow.md) 🌟
+* [Two Pointer](Codes/twoPointer.md) 🌟
+* Hash 🌟
+* [Flood fill(seed fill)](Codes/floodFill.md)🌟
+</br>
