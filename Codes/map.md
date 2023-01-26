@@ -10,6 +10,9 @@
 5. getOrDefault()
 6. putIfAbsent()
 7. iterator
+8. entrySet()
+9. keySet()
+10. Lamda
 </br>
 
 ## 1. forEach()
@@ -181,7 +184,57 @@ public class MapIterationSample {
 ```
 </br>
 
+## 8. entrySet()
+```Java
+Map<String, String> map = new HashMap<>();
+map.put("key01", "value01");
+map.put("key02", "value02");
+map.put("key03", "value03");
+map.put("key04", "value04");
+map.put("key05", "value05");
+
+// 방법 01 : entrySet()
+for (Map.Entry<String, String> entry : map.entrySet()) {
+	System.out.println("[key]:" + entry.getKey() + ", [value]:" + entry.getValue());
+}
+```
+</br>
+
+## 9. keySet()
+```Java
+Map<String, String> map = new HashMap<>();
+map.put("key01", "value01");
+map.put("key02", "value02");
+map.put("key03", "value03");
+map.put("key04", "value04");
+map.put("key05", "value05");
+        
+// 방법 02 : keySet()
+for (String key : map.keySet()) {
+	String value = map.get(key);
+	System.out.println("[key]:" + key + ", [value]:" + value);
+}
+```
+</br>
+
+## 10. Lamda
+```Java
+Map<String, String> map = new HashMap<>();
+map.put("key01", "value01");
+map.put("key02", "value02");
+map.put("key03", "value03");
+map.put("key04", "value04");
+map.put("key05", "value05");
+
+// 방법 05 : Lambda 사용
+map.forEach((key, value) -> {
+	System.out.println("[key]:" + key + ", [value]:" + value);
+});
+```
+</br>
+
 ---
 ### Reference
 * https://codingnojam.tistory.com/39 [알면 know jam! 모르면 no jam!:티스토리]
 * https://stove99.tistory.com/96 (iterator)
+* https://tychejin.tistory.com/31
