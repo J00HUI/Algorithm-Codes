@@ -16,6 +16,7 @@
 * Topological Sort
 * Selection Sort - unstable
 * Counting Sort
+* [객체 정렬(Comparable, Comparator)](objectSort.md)
 </br>
 
 ※ 값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort)이라고 합니다.
