@@ -16,7 +16,7 @@ public class SubSetBinaryCountingTest {
 		int N = input.length;
 		
 		for(int flag=0, caseCount = 1<<N ; flag < caseCount; flag++) {
-			// flag : 원소들의 선택사태의 비트맵
+			// flag : 원소들의 선택상태의 비트맵
 			for(int i=0; i<N; i++) {	// 각 비트열의 상태를 확인
 				if((flag & 1<<i) !=0 ) {
 					System.out.print(input[i]+ " ");
