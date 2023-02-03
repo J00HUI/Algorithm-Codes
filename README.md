@@ -16,7 +16,7 @@
 * Topological Sort
 * Selection Sort - unstable
 * Counting Sort
-* [객체 정렬(Comparable, Comparator)](objectSort.md)
+* [객체 정렬(Comparable, Comparator)](/Codes/objectSort.md)
 </br>
 
 ※ 값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort)이라고 합니다.
@@ -52,7 +52,7 @@
 </br>
 
 ## Data Structure
-* [Heap(P.Q)](priorityqueue.md) 🌟
+* [Heap(P.Q)](/Codes/priorityqueue.md) 🌟
 * [Segment Tree](Codes/segmentTree.java) ⭐
 * [Stack(Node)](Codes/stack.java)
 * [Queue(Node)](Codes/queue.java)
