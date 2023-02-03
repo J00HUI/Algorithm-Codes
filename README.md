@@ -52,7 +52,7 @@
 </br>
 
 ## Data Structure
-* [Heap(P.Q)](/Codes/priorityqueue.md) 🌟
+* [Heap(P.Q)](/Codes/priorityQueue.md) 🌟
 * [Segment Tree](Codes/segmentTree.java) ⭐
 * [Stack(Node)](Codes/stack.java)
 * [Queue(Node)](Codes/queue.java)
