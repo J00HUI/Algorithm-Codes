@@ -1,6 +1,5 @@
 ## DFS
 ```Java
-// DFS
 static void DFS(int now) {
 	ans[now] = idx++;
 
