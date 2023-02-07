@@ -61,15 +61,19 @@
 </br>
 
 ## Graph
-* MST - [Kruskal(union-find)](Codes/kruskal.java) 🌟
-* MST - [Prim](Codes/prim.java)
-* MST - [Prim (P.Q)](Codes/prim_pq.java)
-* Shortest Path(최단경로) - Dijkstra 
-   * [adjList](Codes/dijkstra_adjList.java) 
-   * [adjMatrix](Codes/dijkstra_adjMatrix.java)
-   * [adjMatrix-P.Q](Codes/dijkstra_pq.java) 🌟
-   * [adjList(Node)-P.Q)](Codes/dijkstra_node_pq.java) 🌟
-* Shortest Path(최단경로) - [Floyd-Warshall](Codes/floyd.java) 🌟
+### MST
+* [Kruskal (union-find)](Codes/kruskal.java) 🌟
+* [Prim](Codes/prim.java)
+  * [P.Q](Codes/prim_pq.java)
+
+### Shortest Path (최단경로)
+* Dijkstra
+  * [adjList](Codes/dijkstra_adjList.java) 
+  * [adjMatrix](Codes/dijkstra_adjMatrix.java)
+  * [adjMatrix - P.Q](Codes/dijkstra_pq.java) 🌟
+  * [adjMatrix(Node) - P.Q](Codes/dijkstra_node_pq.java) 🌟
+* Bellman-Ford
+* [Floyd-warhsall](Codes/floyd.java) 🌟
 </br>
 
 ## Greedy 🌟
