@@ -1,3 +1,19 @@
+## DFS
+```Java
+// DFS
+static void DFS(int now) {
+	ans[now] = idx++;
+
+	for(int neighbor : adjList[now]) {
+		if(ans[neighbor] == 0) {	// 아직 방문하지 않은 정점
+			DFS(neighbor);
+		}
+	}
+}
+```
+
+### 전체 코드
+```
 import java.io.*;
 import java.util.*;
 
@@ -64,5 +80,5 @@ public class Main_bj_24479_깊이우선탐색1 {
 			}
 		}
 	}
-
 }
+```
