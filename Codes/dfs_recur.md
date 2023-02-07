@@ -1,7 +1,7 @@
 ## DFS
 ```Java
 static void DFS(int now) {
-	ans[now] = idx++;
+	ans[now] = idx++;			// 방문 처리
 
 	for(int neighbor : adjList[now]) {
 		if(ans[neighbor] == 0) {	// 아직 방문하지 않은 정점
@@ -10,6 +10,7 @@ static void DFS(int now) {
 	}
 }
 ```
+</br>
 
 ### 전체 코드
 ```
