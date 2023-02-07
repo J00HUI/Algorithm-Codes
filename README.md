@@ -48,7 +48,7 @@
 * BFS 🌟
   * Queue
 * DFS 🌟
-  * [재귀](Codes/dfs_recur.java)
+  * [재귀](Codes/dfs_recur.md)
   * Stack
   * 반복문
 * [Binary Search(이분 탐색)](Codes/binarysearch.java) 🌟
