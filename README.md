@@ -10,7 +10,7 @@
 * Quick Sort(퀵 정렬) - unstable
   * Java Sort Library
     * Arrays.sort
-    * Collections.sort
+    * [Collections.sort](collections_sort.md)
 * [Merge Sort(병합 정렬)](/Codes/mergeSort.md) - unstable, O(nlogn)
 * Heap Sort (힙 정렬) - O(nlogn)
 * Topological Sort
