@@ -23,6 +23,11 @@ static void BFS(int start) {
 import java.io.*;
 import java.util.*;
 
+/*
+ * 무방향 그래프를 오름차순으로 BFS 탐색하기.
+ * 정점을 방문한 순서로 출력하기. 
+ */
+
 public class Main_bj_24444_너비우선탐색1 {
 	
 	static int[] ans;
@@ -85,7 +90,6 @@ public class Main_bj_24444_너비우선탐색1 {
 			}
 		}
 	}
-
 }
 
 ```
