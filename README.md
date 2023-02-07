@@ -46,7 +46,7 @@
 
 ## Searching
 * BFS 🌟
-  * Queue
+  * [Queue](Codes/bfs.md)
 * DFS 🌟
   * [재귀](Codes/dfs_recur.md)
   * Stack
