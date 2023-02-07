@@ -9,18 +9,18 @@ import java.util.*;
 
 public class Main_bj_24479_깊이우선탐색1 {
 	
-	static int[] ans;
-	static int idx;
-	static ArrayList<Integer>[] adjList;
+	static int[] ans;			// 방문 순서를 담을 배열
+	static int idx;				// 방문할 순서
+	static ArrayList<Integer>[] adjList;	// 인접리스트
 	
 	public static void main(String[] args) throws Exception {
 		System.setIn(new FileInputStream("res/input_bj_24479.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-		int N = Integer.parseInt(st.nextToken());
-		int M = Integer.parseInt(st.nextToken());
-		int R = Integer.parseInt(st.nextToken());
+		int N = Integer.parseInt(st.nextToken());	// 정점의 갯수
+		int M = Integer.parseInt(st.nextToken());	// 간선의 갯수
+		int R = Integer.parseInt(st.nextToken());	// 시작 정점
 		
 		adjList = new ArrayList[N+1];
 		for(int i=1; i<=N; i++) {
@@ -39,7 +39,7 @@ public class Main_bj_24479_깊이우선탐색1 {
 			adjList[b].add(a);
 		}
 		
-		for(int i=1; i<=N; i++) {
+		for(int i=1; i<=N; i++) {			// 오름차순 순서로 방문함
 			Collections.sort(adjList[i]);
 		}
 		
@@ -53,7 +53,8 @@ public class Main_bj_24479_깊이우선탐색1 {
 		System.out.println(sb.toString());
 		br.close();
 	}
-
+	
+	// DFS
 	static void DFS(int now) {
 		ans[now] = idx++;
 		
