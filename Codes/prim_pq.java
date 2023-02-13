@@ -45,6 +45,7 @@ public class MST2_PrimPQTest_SC {
 			for (int i = 0; i < N; i++) {
 				if (!visited[i] && g[minVertex.no][i] != 0 && minEdge[i] > g[minVertex.no][i]) {
 					minEdge[i] = g[minVertex.no][i];
+					pq.add(new Vertex(i, minEdge(i)));
 				}
 			}
 		}
