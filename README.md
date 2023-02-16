@@ -113,4 +113,5 @@
 * [Two Pointer](Codes/twoPointer.md) 🌟
 * Hash 🌟
 * [Flood fill(seed fill)](Codes/floodFill.md)🌟
+* [Accumulated Sum (누적 합 / 구간 합)](Codes/accumulatedSum.md)
 </br>
