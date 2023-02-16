@@ -52,7 +52,7 @@
   * Stack
   * 반복문
 * [Binary Search(이분 탐색)](Codes/binarysearch.java) 🌟
-  * [LIS(가장 긴 증가하는 부분 수열)](/Codes/LIS.md)
+  * [LIS (가장 긴 증가하는 부분 수열)](/Codes/LIS.md)
 * [Parametric Search(매개변수 탐색)](Codes/parametricSearch.md) 🌟
 </br>
 
