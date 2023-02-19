@@ -3,7 +3,7 @@ public class DP0_FibonacciTest_Recur {
 	private static long[] callCnt1, callCnt2, memo;
 	private static long totalCnt1, totalCnt2;
 	
-	
+	// 재귀 사용
 	public static long fibo1(int n) {
 		callCnt1[n]++;
 		totalCnt1++;
@@ -11,6 +11,7 @@ public class DP0_FibonacciTest_Recur {
 		return fibo1(n-1) + fibo1(n-2);
 	}
 	
+	// dp 사용
 	public static long fibo2(int n) {
 		callCnt2[n]++;
 		totalCnt2++;
