@@ -40,7 +40,7 @@
 </br>
 
 ## Recursive (Backtracking) 🌟
-* [Hanoi](Codes/hanoi.java)
+* [Hanoi](Codes/hanoi.md)
 * [NQueenBackTracking](Codes/nqueenback.java)
 </br>
 
