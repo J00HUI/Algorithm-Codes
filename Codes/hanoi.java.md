@@ -2,8 +2,15 @@
 </br>
 
 > 원판이 n개 일 때 옮긴 횟수 : 2^n-1
+
+n 이 20 보다 크다면 long 범위를 벗어남 -> BigInteger 사용 
+```Java
+BigInteger ans = new BigInteger("2");
+System.out.println(ans.pow(N).subtract(new BigInteger("1")));
+```
 </br>
 
+### 전체 코드
 ```Java
 public class R2_HanoiTest {
 
