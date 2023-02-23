@@ -1,3 +1,8 @@
+## Hanoi (Recursive)
+
+* 옮긴 횟수 : 2^n-1
+
+```Java
 public class R2_HanoiTest {
 
 	public static void main(String[] args) {
@@ -19,3 +24,4 @@ public class R2_HanoiTest {
 	}
 
 }
+```
