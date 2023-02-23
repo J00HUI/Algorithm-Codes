@@ -1,6 +1,8 @@
 ## Hanoi (Recursive)
+</br>
 
-* 옮긴 횟수 : 2^n-1
+> 옮긴 횟수 : 2^n-1
+</br>
 
 ```Java
 public class R2_HanoiTest {
