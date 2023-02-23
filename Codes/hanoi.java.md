@@ -1,7 +1,7 @@
 ## Hanoi (Recursive)
 </br>
 
-> 옮긴 횟수 : 2^n-1
+> 원판이 n개 일 때 옮긴 횟수 : 2^n-1
 </br>
 
 ```Java
