@@ -1,3 +1,7 @@
+## SegmentTree
+<img width="692" alt="image" src="https://user-images.githubusercontent.com/83942393/223113335-63df4cb6-f673-42e8-b56e-83a7312dad02.png">
+
+```Java
 import java.io.*;
 import java.util.*;
 
@@ -42,4 +46,4 @@ public class Main{
 		System.out.println("4부터 8까지의 구간 합 : " + sum(0, NUMBER-1, 1, 4, 8));
 	}
 }
-
+```
