@@ -1,5 +1,8 @@
-## SegmentTree
+# SegmentTree
+* 구간합을 시간복잡도 O(logN) 으로 구하는 방법
+
 <img width="692" alt="image" src="https://user-images.githubusercontent.com/83942393/223113335-63df4cb6-f673-42e8-b56e-83a7312dad02.png">
+
 
 ```Java
 import java.io.*;
