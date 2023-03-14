@@ -87,7 +87,7 @@
 ## DP ⭐
 * [0-1 Knapsack Problem](Codes/zerooneknapsack.java)
 * [LIS(Longest Increasing Subsequence)](Codes/lis.java)
-  * [Longest Bitonic Subsequence](Codes/LBS.java)
+  * [Longest Bitonic Subsequence](Codes/LBS.md)
 * LCS(Longest Common Subsequence)
 * [Fibonacci-Top-Bottom](Codes/fibonacci.java)
 * [Fibonacci-Bottom-Up](Codes/fibonacci2.java)
