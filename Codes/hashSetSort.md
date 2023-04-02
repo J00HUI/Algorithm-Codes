@@ -1,4 +1,5 @@
 ## HashSet 내림차순 정렬
+</br>
 
 1. List로 변환 후 정렬
 ```Java
@@ -50,6 +51,20 @@ public class Main {
 
     // 정렬 후
     System.out.println("ts: " + ts);
+  }
+}
+```
+</br>
+
+3. Comparator + lamda 사용
+```Java
+public class Main {
+  public static void main(String args[]) {
+    HashSet<String> hSet = new TreeSet<String>((o1, o2) -> (o2.compareTo(o1)));
+
+    hSet.add("Hello");
+    hSet.add("Java");
+    hSet.add("Programming");
   }
 }
 ```
