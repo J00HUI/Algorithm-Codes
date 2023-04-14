@@ -3,40 +3,18 @@
 * JAVA8 하면 뺴놓을 수 없는게 람다식인데 대부분 람다식을 전달 인자로 받음
 
 ## Contents
-1. forEach()
-2. compute()
-3. computeIfAbsent()
-4. computeIfPresent()
-5. getOrDefault()
-6. putIfAbsent()
-7. iterator
-8. entrySet()
-9. keySet()
-10. Lamda
+1. compute()
+2. computeIfAbsent()
+3. computeIfPresent()
+4. getOrDefault()
+5. putIfAbsent()
+6. iterator
+7. entrySet()
+8. keySet()
+9. Lamda
 </br>
 
-## 1. forEach()
-forEach() 는 Map 에서 가지고 있는 key와 value 의 값을 하나씩 차례대로 꺼낼 때 사용하면 유용한 메서드입니다.   
-사용방법은 아래와 같습니다.   
-```
-Map<String, String> map = new HashMap<>();
-map.put("coding", "01");
-map.put("Java", "NoJam");
-map.put("Coding", "CodingNoJamHello");
-map.put("nojam", "Codingnojam");
- 
-// 내부에서 key와 value를 쌍으로 하나씩 꺼내서 출력
-map.forEach((k, v) -> System.out.println(k + " : " + v));
-/* 출력 예시
- * coding : 01
- * Java : NoJam
- * Coding : CodingNoJamHello
- * nojam : Codingnojam 
- */
-```
-</br>
-
-## 2.compute()
+## 1.compute()
 compute() 메서드는 람다식을 통해서 기존의 값에 어떻게 연산을 할지 지정할 수 있습니다.   
 사용방법은 다음과 같습니다.
 ```
@@ -58,7 +36,7 @@ Map을 처음 생성할 때는 아무런 값도 없으므로 "coding"이라는 �
 그다음에 동일한 람다식을 전달하면 "coding"이라는 키의 값이 0으로 존재하므로 람다식에서의 연산을 통해 0+1이 되고 1을 리턴해줍니다.   
 </br>
 
-## 3. computeIfAbsent()
+## 2. computeIfAbsent()
 이번에 소개할 메서드는 computeIfAbsent()입니다.   
 메서드 이름에서부터 어떻게 동작할지 느낌이 오는데, 말 그대로 없으면 compute()를 해준다는 의미입니다.   
 사용방법은 아래와 같습니다.   
@@ -81,7 +59,7 @@ computeIfAbsent()에 첫 번째 전달 인자는 key이고, 두 번째 전달 �
 실제로 이 메서드는 trie자료구조를 만들 때 제가 주로 쓰는데 아주 유용합니다.    
 </br>
 
-## 4. computeIfPresent()
+## 3. computeIfPresent()
 computIfPresent()는 위에서 살펴본 computIfAbsent()와 반대로 동작한다고 이해하시면 될 것 같습니다.   
 key에 매핑된 value가 있을 때만 전달받은 람다식을 수행해서 새로운 value를 얻어 매핑 후에 값을 리턴해줍니다.   
 사용방법은 아래와 같습니다.   
@@ -102,7 +80,7 @@ System.out.println(str_null); 	// null 출력
 추가적으로 comput()는 키에 매핑된 value가 없으면 람다식에서 얻은 값으로 매핑을 해주지만, computeIfPresent()는 키에 매핑된 value값이 없으면 null을 리턴합니다.   
 </br>
 
-## 5. getOrDefault()
+## 4. getOrDefault()
 getOrDefault() 메서드는 명칭 그대로 key에 매핑된 value값이 존재하면 가져오고, 존재하지 않으면 default값을 가져옵니다.   
 사용방법은 아래와 같습니다.   
 ```
@@ -120,7 +98,7 @@ System.out.println(str); //Interface 출력
 첫 번째 인자에 key를 주고, 두 번째 인자에 default로 사용할 값을 주면 됩니다.
 </br>
 
-## 6. putIfAbsent()
+## 5. putIfAbsent()
 마지막으로 살펴볼 메서드는 putIfAbsent()입니다.   
 이름부터가 명확하죠? key에 매핑된 value값이 없으면(null이면) 값을 put해라   
 사용방법은 다음과 같습니다.   
@@ -145,7 +123,7 @@ System.out.println(str);  //good good 출력
 만약 key에 매핑된 value값이 존재하면 그대로 값을 리턴해주고, 존재하지 않으면 null을 리턴합니다.   
 </br>
 
-## 7. iterator
+## 6. iterator
 ```Java
 import java.util.HashMap;
 import java.util.Iterator;
@@ -173,7 +151,7 @@ public class MapIterationSample {
 ```
 </br>
 
-## 8. entrySet()
+## 7. entrySet()
 ```Java
 Map<String, String> map = new HashMap<>();
 map.put("key01", "value01");
@@ -189,7 +167,7 @@ for (Map.Entry<String, String> entry : map.entrySet()) {
 ```
 </br>
 
-## 9. keySet()
+## 8. keySet()
 ```Java
 Map<String, String> map = new HashMap<>();
 map.put("key01", "value01");
@@ -206,7 +184,7 @@ for (String key : map.keySet()) {
 ```
 </br>
 
-## 10. Lamda
+## 9. Lamda
 ```Java
 Map<String, String> map = new HashMap<>();
 map.put("key01", "value01");
