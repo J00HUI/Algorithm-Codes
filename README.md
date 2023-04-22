@@ -5,21 +5,19 @@
 </br>
 
 ## Sorting
-* Insertion Sort(삽입 정렬) - stable, O(n^2)
-* Bubble Sort(거품 정렬) - stable, O(n^2)
+※ 값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort)이라고 합니다.
+* Insertion Sort(삽입 정렬) - O(n^2), stable
+* Bubble Sort(거품 정렬) - O(n^2), stable
 * Quick Sort(퀵 정렬) - unstable
   * Java Sort Library
     * Arrays.sort
     * [Collections.sort](/Codes/collections_sort.md)
-* [Merge Sort(병합 정렬)](/Codes/mergeSort.md) - unstable, O(nlogn)
+* [Merge Sort(병합 정렬)](/Codes/mergeSort.md) - O(nlogn), unstable
 * Heap Sort (힙 정렬) - O(nlogn)
 * Topological Sort (위상 정렬)
 * Selection Sort (선택 정렬) - unstable
 * Counting Sort (계수 정렬)
 * [객체 정렬(Comparable, Comparator)](/Codes/objectSort.md)
-</br>
-
-※ 값이 같은 원소의 전후관계가 바뀌지 않는 정렬 알고리즘을 안정 정렬(stable sort)이라고 합니다.
 </br>
 </br>
 
@@ -38,10 +36,12 @@
    * [SubSetSum-Backtracking](Codes/subSetSum_back.java) 
 * [중복 순열, 순열, 중복 조합, 조합](Codes/diceTest.java)
 </br>
+</br>
 
 ## Recursive (Backtracking) 🌟
 * [Hanoi](Codes/hanoi.md)
 * [NQueenBackTracking](Codes/nqueenback.java)
+</br>
 </br>
 
 ## Searching
@@ -55,6 +55,7 @@
   * [LIS (가장 긴 증가하는 부분 수열)](/Codes/LIS.md)
 * [Parametric Search(매개변수 탐색)](Codes/parametricSearch.md) 🌟
 </br>
+</br>
 
 ## Data Structure
 * [Heap(P.Q)](/Codes/priorityQueue.md) 🌟
@@ -63,6 +64,7 @@
 * [Queue(Node)](Codes/queue.java)
 * [Map](Codes/map.md)
 * [Set](Codes/set.md)
+</br>
 </br>
 
 ## Graph
@@ -80,8 +82,10 @@
 * [Bellman-Ford](Codes/bellmanford.java)
 * [Floyd-warhsall](Codes/floyd.java) 🌟
 </br>
+</br>
 
 ## Greedy 🌟
+</br>
 </br>
 
 ## DP ⭐
@@ -93,20 +97,24 @@
 * [Fibonacci-Bottom-Up](Codes/fibonacci2.java)
 * [MinCoinChange](Codes/minCoinChange.java)
 </br>
+</br>
 
 ## String
 * [KMP](Codes/kmp.java)
 * Rabin-Karp
 * [Trie](Codes/trie.md) ⭐
 </br>
+</br>
 
 ## Number Theory
 * [Sieve of Eratosthenes(에라토스테네스의 체(소수판별))](Codes/Eratosthenes.java)
 * [Euclidean algorithm(유클리드 호제법(최대 공약수, 최소 공배수))](Codes/Euclidean.md)
 </br>
+</br>
 
 ## Devide and Conquer
 * [SquareNumberDivideTest](Codes/divideTest.java)
+</br>
 </br>
 
 ## Miscellaenous
@@ -115,4 +123,5 @@
 * Hash 🌟
 * [Flood fill(seed fill)](Codes/floodFill.md)🌟
 * [Prefix Sum (누적 합 / 구간 합)](Codes/prefixSum.md)
+</br>
 </br>
