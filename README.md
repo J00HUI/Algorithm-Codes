@@ -13,9 +13,9 @@
     * [Collections.sort](/Codes/collections_sort.md)
 * [Merge Sort(병합 정렬)](/Codes/mergeSort.md) - unstable, O(nlogn)
 * Heap Sort (힙 정렬) - O(nlogn)
-* Topological Sort
-* Selection Sort - unstable
-* Counting Sort
+* Topological Sort (위상 정렬)
+* Selection Sort (선택 정렬) - unstable
+* Counting Sort (계수 정렬)
 * [객체 정렬(Comparable, Comparator)](/Codes/objectSort.md)
 </br>
 
